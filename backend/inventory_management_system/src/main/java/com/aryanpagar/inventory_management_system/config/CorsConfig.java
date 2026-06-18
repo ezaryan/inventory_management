@@ -21,6 +21,7 @@ public class CorsConfig {
         config.setAllowedOrigins(
                 List.of(
                         "http://localhost:5173"
+                        "https://inventory-management-snowy-phi.vercel.app"
                 ));
 
         config.setAllowedHeaders(
